@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><script src="https://use.typekit.net/xbr6agj.js"></script><script>try{Typekit.load({ async: true });}catch(e){}</script><script>window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '6WVGW';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+})(window,document,window['_fs_namespace'],'script','user');
+</script><title> OLA Cabs - Designing a Simpler Cab Booking Experience · Raj Abishek</title><meta name="description" content="OLA Cabs - Designing a Simpler Cab Booking Experience - Raj Abishek"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/logo.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/logo.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/archives" target="_self" class="nav-list-link">Blog</a></li><li class="nav-list-item"><a href="https://dribbble.com/rajabishek" target="_blank" class="nav-list-link">Dribbble</a></li><li class="nav-list-item"><a href="https://in.linkedin.com/in/rajabishek" target="_blank" class="nav-list-link">LinkedIn</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">Rss</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">OLA Cabs - Designing a Simpler Cab Booking Experience</h1><div class="post-info">Oct 29, 2017</div><div class="post-content"><h2 id="Project-details"><a href="#Project-details" class="headerlink" title="Project details"></a>Project details</h2><p>Recently I found my colleague Sanjay, booking a cab for his mother. I wasn’t shocked when he told me that his mom doesn’t book a cab by herself. Sanjay’s mom owns a smartphone and is comfortable using apps like youtube and whatsapp. When she can youtube and whatsapp, how is that she is finding it difficult to book a cab?</p>
+<p>As a designer I wanted to fix this. My instinct told me, if the design could be more user centered, Sanjay’s mom should be able to make a booking by herself.</p>
+<h2 id="Problem-Statement"><a href="#Problem-Statement" class="headerlink" title="Problem Statement"></a>Problem Statement</h2><p>Designing a simpler cab booking experience with minimum friction to allow many such Indian mom’s to book a cab without anyone’s help.</p>
+<a id="more"></a>
+<h2 id="Things-to-learn"><a href="#Things-to-learn" class="headerlink" title="Things to learn"></a>Things to learn</h2><p>As a first step I started writing down on a higher level some of the things that I wanted to learn from user interviews.</p>
+<ul>
+<li>Where are users struggling with the current app to make a booking</li>
+<li>Why aren’t still many people confident enough to make a booking by themselves</li>
+<li>For limited mobile users, what are the basic interactions they are familiar with.</li>
+</ul>
+<h2 id="Picking-users-for-interviews"><a href="#Picking-users-for-interviews" class="headerlink" title="Picking users for interviews"></a>Picking users for interviews</h2><p>This wasn’t as difficult as I assumed it to be. Since OLA is a popular cab booking app used in India, I was able to find quite a number of users without much difficulty. I wanted to go out of my circle to interview different kinds of users, but die to the lack of time I just interviewed people inside my circle whom I already knew as OLA users.</p>
+<p>I decided to do multiple interviews instead of a predefined fixed number of them and settle down when I had enough learnings with me.</p>
+<p>I interviewed around 10 people on Saturday and each interview on an average lasted for around 15-20 minutes. 2 were done on phone calls, while the rest of them was done in person. I prefer doing in person interviews especially for these kinds of tasks where users are easily accessible.</p>
+<h2 id="Known-Unknowns"><a href="#Known-Unknowns" class="headerlink" title="Known Unknowns"></a>Known Unknowns</h2><p>Based on the things I wanted to learn, I started writing down questions that I wanted to ask during the interviews. The actual questions that we asked slightly varied from one person to another based on their response. But in general these were the kind of questions that were asked:</p>
+<ul>
+<li>Can you introduce yourself? What do you do? Where do you work?</li>
+<li>Which cab booking service do you use?</li>
+<li>When is the last time you booked a cab?</li>
+<li>What device do you use ? Do you have mobile data every time?</li>
+<li>Do you feel that with OLA app, the cab booking is time consuming?</li>
+<li>Do you prefer using OLA every time?</li>
+<li>When do you end up not using OLA cabs? </li>
+<li>Can you take me to a specific point in time and narrate this incident for me?</li>
+</ul>
+<p>One nice trick that I employed during user interviews was to use more of when rather than why. Asking when resulted in users taking me to a specific point in time, describing the incident as a story that gave me more context into the problems they had. The more stories they had to share, I was able to discover the chains of cause and effect leading up to usage on the demand side(what users actually needed) to build the right things on the supply side(the solution that I built for them).</p>
+<h2 id="Unknown-Unknowns"><a href="#Unknown-Unknowns" class="headerlink" title="Unknown Unknowns"></a>Unknown Unknowns</h2><p>I also kept some space at the end of every interview to ask some open ended questions that to discover some unknown unknowns too. Questions like:</p>
+<ul>
+<li>Is there anything else that you would like to tell me?</li>
+<li>Is there something I should have asked but I didn’t?</li>
+</ul>
+<h2 id="User-Personas"><a href="#User-Personas" class="headerlink" title="User Personas"></a>User Personas</h2><p>Personally I am not a very big fan of user personas but I decided to go ahead with this as it gives a sense of consistency while designing solutions. Based on the interviews they were two important personas.</p>
+<h2 id="User-Journey-1"><a href="#User-Journey-1" class="headerlink" title="User Journey 1"></a>User Journey 1</h2><ul>
+<li>Isai is a homemaker</li>
+<li>Her mother Chandra is a cancer patient and has to be taken to the hospital for treatment.</li>
+<li>She takes her mom to the same hospital every 2 days.</li>
+<li>She gets a confirmation for her mother’s appointment only an hour in advance</li>
+<li>She calls her son Sanjay to book a cab for her when he is at work</li>
+<li>Her son books an OLA cab with pickup point as his house address</li>
+<li>He guides the cab driver when he finds it difficult to reach the address</li>
+<li>He keeps checking the map to see where the cab driver is as he has to inform his mom 10 mins before as his grandmother is slow walking down the stairs.</li>
+<li>If he doesn’t inform 10 mins before the cab arrives the drives calls him and trouble hims. He has to explain - every time that he has made a booking for his mom and grandmother.</li>
+<li>He also tells his mom not to pay because he has added the payment method as card and the app pays automatically once the ride is complete</li>
+<li>Sometimes Isai’s son is busy with office work and is not able to book a cab and she ends up calling the local travels to arrange for a car. But this is expensive and it’s not affordable every time. In these cases she takes an auto while coming back.</li>
+<li>Once Isai arrange for local travels vehicle and also Sanjay ended up booking a cab later for him mom. Sanjay has to cancel the OLA booking later as he didn’t know that his mom arrange another mode of transport.</li>
+<li>Isai doesn’t book a cab by herself though she has a smart phone with OLA app installed because she is not used to modern interfaces.</li>
+<li>Isai’s son tried teaching her how to use the app once, but still she doesn’t remember and is afraid of booking as it has a lot of options.</li>
+<li>Isai is aware of basic mobile interactions and uses apps like youtube and whatsapp. In either case she doesn’t type much on phone(she is very slow at typing and is not very comfortable with that) and primarily uses mobile to consume content(watching whatsapp videos, watching videos on youtube etc).</li>
+</ul>
+<h2 id="Persona-Document"><a href="#Persona-Document" class="headerlink" title="Persona Document"></a>Persona Document</h2><p>The persona document is simple with only the major details about the goals, frustrations, technology awareness and a basic description about Isai.<br><img src="/img/cab-booking/persona.png" alt="Screenshot 1"></p>
+<h2 id="Storyboarding"><a href="#Storyboarding" class="headerlink" title="Storyboarding"></a>Storyboarding</h2><p>For each persona I also wanted to draw a rough storyboard, which can be used as a reference throughout my design process.</p>
+<p><img src="/img/cab-booking/storyboarding.jpg" alt="Screenshot 1"></p>
+<p>Ideation<br>Before ideating on a good solution for a problem, I always do an exercise as to what I call as CSS diagram mapping to get a better idea on what is the actual problem here and what “better” means.</p>
+<p>A CSS diagramming activity is very simple. Based on the research we write down the current situation, the current solution that is used to deal with the situation and the bad result that we would like to improve. Then we write down the better result i.e if a good solution is in place what problems would would solve and then we try to find out the new solution. The delta between the current result and the better results is the progress here.</p>
+<p><img src="/img/cab-booking/ideation.jpg" alt="Screenshot 1"></p>
+<h2 id="Low-fidelity-wireframing-amp-prototyping"><a href="#Low-fidelity-wireframing-amp-prototyping" class="headerlink" title="Low fidelity - wireframing &amp; prototyping"></a>Low fidelity - wireframing &amp; prototyping</h2><p>Now that I had a good understanding about the user, their problems and the actually need for a good solution here. I started prototyping and iterating in low fidelity to validate my assumptions.</p>
+<p>Some of my assumptions:</p>
+<ul>
+<li>It’s a lot easier for Isai is the app has a similar interface like Whatsapp that she is already used to, but with more interactions on clicking rather than typing</li>
+<li>It’s easier for Isai if the app doesn’t ask for the pickup location and picks the current location by default</li>
+<li>It’s easier for Isai if the app doesn’t ask for the drop location and presents the recently travelled ones for selection</li>
+<li>It’s less scary for Isai if the app shows the pricing of the cabs upfront before a booking rather than after ending the ride</li>
+<li>It’s easier for Isai if the app doesn’t ask her for the payment method and picks cash by default so that she can control over the money</li>
+<li>It’s better for Isai if she is called by someone from OLA for a confirmation about the booking</li>
+<li>It’s better for Isai if she is aware about the cab arrival time as she can plan to lock her house and bring her mom down</li>
+</ul>
+<p><img src="/img/cab-booking/view-hierarchy.jpg" alt="Screenshot 1"></p>
+<p>With some usability testing and questions I was able to validate the effectiveness of my solution my presenting them to Isai and by seeing how comfortable and simpler it was for now to book a cab.</p>
+<h2 id="High-fidelity-prototyping"><a href="#High-fidelity-prototyping" class="headerlink" title="High fidelity prototyping"></a>High fidelity prototyping</h2><iframe src="https://marvelapp.com/109fbj46?emb=1" width="452" height="800" allowtransparency="true" frameborder="0"></iframe>
+
+<p>Once I was clear about the entire flow and what works well for Isai I was able to prototype the design in high fidelity using the Marvel app and get more feedback.</p>
+<p>Below is a photo of Isai using the interface herself. A few words from Isai - “Did you make the app? This is very easy to use.” (Translated from Tamil to English)</p>
+<p><img src="/img/cab-booking/high-fidelity.jpg" alt="Screenshot 1"></p>
+</div></article></div></section><footer><div class="paginator"><a href="/2017/Learnings-as-a-product-manager/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2017 <a href="http://rajabishek.com">Raj Abishek</a>, unless otherwise noted.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-93252193-1",'auto');ga('send','pageview');</script></body></html>
