@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><script src="https://use.typekit.net/xbr6agj.js"></script><script>try{Typekit.load({ async: true });}catch(e){}</script><script>window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '6WVGW';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+})(window,document,window['_fs_namespace'],'script','user');
+</script><title> Helping Blue Collar Workers Manage Their Public Transport Needs · Raj Abishek</title><meta name="description" content="Helping Blue Collar Workers Manage Their Public Transport Needs - Raj Abishek"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/logo.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/logo.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/about/" target="_self" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/archives" target="_self" class="nav-list-link">Blog</a></li><li class="nav-list-item"><a href="https://dribbble.com/rajabishek" target="_blank" class="nav-list-link">Dribbble</a></li><li class="nav-list-item"><a href="https://in.linkedin.com/in/rajabishek" target="_blank" class="nav-list-link">LinkedIn</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">Rss</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">Helping Blue Collar Workers Manage Their Public Transport Needs</h1><div class="post-info">Dec 11, 2017</div><div class="post-content"><h2 id="Problem-Overview"><a href="#Problem-Overview" class="headerlink" title="Problem Overview"></a>Problem Overview</h2><p>To design an an affordable and easy solution for blue collar workers to manage their public transport needs. The challenge is to design a solution that allows city dwellers to go easily between multiple public transport services, managing their daily, weekly and monthly needs. The goal is to help users plan for their travel and reach home early to spend time with their family.</p>
+<h2 id="Target-Audience"><a href="#Target-Audience" class="headerlink" title="Target Audience"></a>Target Audience</h2><p>Constructions worker, maids and other blue collar workers who in particular use public transport for work commute. These users do not find using apps like Flipkart/Ola easy. </p>
+<a id="more"></a>
+<h2 id="Discovery-Users-in-context"><a href="#Discovery-Users-in-context" class="headerlink" title="Discovery - Users in context"></a>Discovery - Users in context</h2><p>There are a couple of things I wanted to learn before working on the problem. Some of them are are follows:</p>
+<ul>
+<li>Who are these users? How technologically sound are they?</li>
+<li>How are they connected with technology and how what digital tools do they have access to?</li>
+<li>What is the day in life of a person who is just relying on public transport?</li>
+<li>What are the frustrations and pain points they face everyday with public transport?</li>
+<li>What does planning mean here? What would these users like to plan for?</li>
+<li>What are the frictions that causes users to not reach home early? How do they get delayed?</li>
+<li>And some features are already given in the problem, but are all these features even required and will they be used by our ideal user? If not how can it be designed better?</li>
+<li>How do these users make choices and what influences their purchasing decisions?</li>
+<li>What are some of the app these users are used to and how was their experience in using them? </li>
+</ul>
+<h2 id="Contextual-Inquiry"><a href="#Contextual-Inquiry" class="headerlink" title="Contextual Inquiry"></a>Contextual Inquiry</h2><p>With the help of my mom and a couple of my neighbors I was able to interview 5 different people under this category(people who rely on public transport for work commute). Each one of them told me about their objectives, frustrations, pain points and what they liked and didn’t like about their current experience. </p>
+<p>Interviewing and asking questions itself is a skill. You can’t just ask a user would you use this app, what don’t you like in this app? The questions have to provoke users to narrate a story or help them to recollect and give an example from past. And most often what users actually need is very different from what they tell you as a need. You have to be very cautious about taking everything seriously and just pick the sure ones while interviewing.</p>
+<p>I usually start my interviews by writing down stuff that I would like to learn and change interview scripts based on the results from first few interviews. It’s a list of known unknowns and I also keep some open ended questions to discover some unknown unknowns. While interviewing I use more of “When” rather than “What”, “How” or “Why” because asking “When”  always takes a user to a specific point in time and makes them narrate or tell you a story. In this way you get to understand the chain of cause and events. This helps you understand the true demand to deliver the right things on the supply side.</p>
+<h2 id="User-Experience-Mapping"><a href="#User-Experience-Mapping" class="headerlink" title="User Experience Mapping"></a>User Experience Mapping</h2><p>Using all this data I was collectively able to put out a simple user experience map. The yellow are the objectives and goals of the user, the pink are the the frustrations and the pain points and the green ones are the happiness points(things that users like about the current system).</p>
+<p><img src="/img/public-transport/mapping1.jpg" alt="Screenshot 1"></p>
+<h2 id="Learnings-about-the-user"><a href="#Learnings-about-the-user" class="headerlink" title="Learnings about the user:"></a>Learnings about the user:</h2><ul>
+<li>All the 5 of them had android phones</li>
+<li>All the phones were less than 8000INR</li>
+<li>None of them had mobile data on their phones</li>
+<li>Only 3 of them use simple apps like whatsapp, while the rest only use it only for calls</li>
+<li>None of them have made an online payment before and also don’t want to also make one in the future. They feel it’s dangerous.</li>
+<li>They are only comfortable with clicking and are very slow while typing on mobile</li>
+<li>Most importantly. They are only comfortable with their native languages(tamil in this case for all 5) and cannot read english</li>
+</ul>
+<h2 id="Learnings-about-their-problem"><a href="#Learnings-about-their-problem" class="headerlink" title="Learnings about their problem:"></a>Learnings about their problem:</h2><ul>
+<li>They know which bus to take(the bus numbers), but they don’t know when the bus would arrive as they work timing varies</li>
+<li>With local train transportation 2 of them they were fairly comfortable with the the timings but the rest didn’t know the exact time at which the train would arrive</li>
+<li>One of the main reason why they would get delayed is because of lack of awareness about the bus and train schedules</li>
+<li>One lady would call her next owner and tell them that she would be in their house by 20mins, but she would be delayed because she isn’t aware about the bus/train timings</li>
+<li>Another lady had to walk all the way up till the autostand and actually even further(because auto stand charge higher) to get a ride.</li>
+<li>They don’t take all buses and only use the whiteboard one as they are cheaper compared to the blue colored and yellow colored ones.</li>
+<li>Getting a bus at the right time is purely luck, sometimes you would get a bus just as you come to the bus stop but sometimes you have to wait for a long time.</li>
+<li>They all wish they get direct buses, if not they will have to change bus stops and also wait there for the next bus.</li>
+<li>Planning for them means postponing a certain work for later(cleaning bathroom/cleaning shelves) or completing their work fast knowing that they have to leave early for the day and sometimes informing when they will come for work to their next owner.</li>
+<li>Most of them do not use autos, but rarely they take one if they get delayed too much. But they are very conscious about how much they have to pay and are only ready if the auto drive puts the meter on during the ride.</li>
+<li>The most disheartening moment is when you get into the station and see the train leaving, wish you could have come a minute early</li>
+</ul>
+<h2 id="User-Personas"><a href="#User-Personas" class="headerlink" title="User Personas"></a>User Personas</h2><p>User personas can be very effective in providing consistent design solutions if they are used in the right way. The persona document is kept simple with only the major details like goals, frustrations, technology awareness and a description and was used as a blueprint during the design process.<br><img src="/img/public-transport/persona.png" alt="Screenshot 3"></p>
+<h2 id="Storyboarding"><a href="#Storyboarding" class="headerlink" title="Storyboarding"></a>Storyboarding</h2><p>For these kinds of projects where retaining empathy is very important storyboards are a great tool and can always be used as a reference. I stick it in front of my desk and this helps me remember the frustrations and remind me constantly about the reason why this app is being designed and for whom it is being design for under which situations.<br><img src="/img/public-transport/storyboarding.jpg" alt="Screenshot 4"></p>
+<h2 id="Jobs-to-be-done-JTBD-Framework"><a href="#Jobs-to-be-done-JTBD-Framework" class="headerlink" title="Jobs to be done - JTBD Framework"></a>Jobs to be done - JTBD Framework</h2><p>By writing down job stories it becomes easier to understand why people hire your product for. Situations and circumstances force people to look out for tools and they certainly hire every product to accomplish their job. I believe that understanding the actual job for which the product is hired for is more important than understanding about the user. </p>
+<p>Unlike user stories, job stories provides as much context as possible and highlights the motivation instead of just the implementation or the action that is important for the user. It follows the order Situation-Motivation-Expected Outcome. Based on the user research there we 3 important job stories:</p>
+<ul>
+<li>Before leaving my house I would like to see the bus/train timings so that I can call and inform my next owner so that I can reach there on time.</li>
+<li>When I know that I am going to finish work I would like to see the timings for white board buses(cheaper) so that I can finish my work earlier.</li>
+<li>When I know that I am going to finish work I would like to see the timings direct buses so that I need no change bus stops to reach home.</li>
+<li>When I know that I am going to finish work in a place I would like to book an auto that can come to my place so that I need not walk long way to hail a auto and spend time on looking for an auto.</li>
+</ul>
+<h2 id="Ideation-B-MAT-framework"><a href="#Ideation-B-MAT-framework" class="headerlink" title="Ideation, B = MAT framework"></a>Ideation, B = MAT framework</h2><p>Typically during the ideation process I use the B = MAT framework to ideate on design solutions to solve a user problem. Every behaviour should have these 3 components in place for the behavior or action to occur - Motivation, Ability and Trigger. When we use the MAT analysis and think through these terms it pushes us to question and improve every single component that we introduce inside the application. </p>
+<p>The ideation process is focussed at increasing the motivation, reducing the ability and improving the trigger(right kind and at the right time) to cause the intended behavior.<br>I also always do an exercise as to what I call as CSS diagramming to get a better idea on what is the actual problem here and what “better” means for the user.</p>
+<p>A CSS diagramming activity is very simple. Based on the research we write down the current situation, the current solution that is used to deal with the situation and the bad results that we would like to improve. Then we write down the better result i.e if a good solution is in place what problems would it solve and then we try to find out the new solution that brings this change. The delta between the current result and the better results is the progress here.<br><img src="/img/public-transport/css.png" alt="Screenshot 5"></p>
+<h2 id="Unique-selling-propositions"><a href="#Unique-selling-propositions" class="headerlink" title="Unique selling propositions"></a>Unique selling propositions</h2><p>Now it is clear that if there needs to be sufficient motivation for someone to use this product it must have the following abilities without fail:<br>Support native languages<br>Search and look for buses that are cheaper and direct<br>Look for the next train time at a particular station<br>Ability to hail an auto where I am clear about pricing and charges<br>Work without internet</p>
+<h2 id="Low-Fidelity-Paper-Sketches"><a href="#Low-Fidelity-Paper-Sketches" class="headerlink" title="Low Fidelity - Paper Sketches"></a>Low Fidelity - Paper Sketches</h2><p>Now that I have a good understanding about the actual needs, the users and their problems, I started prototyping in low fidelity. Low fidelity design and prototyping allows you to quickly validate assumptions without wasting a lot of time(designing directly all the screens on software).</p>
+<p>But the biggest challenge for me here was that all my prototypes should be in Tamil language so that I can collect feedback. And I don’t know to write tamil. So I took some help from my friend to help me translate from English to Tamil. In Fact the entire of prototyping was done in Tamil so that all users were able to use the interface and give inputs.<br><img src="/img/public-transport/low-fidelity1.jpg" alt="Screenshot 6"><br><img src="/img/public-transport/low-fidelity2.jpg" alt="Screenshot 7"></p>
+<p>Some of my assumptions:</p>
+<ul>
+<li>The app will be easy to use if it only involves clicking and typing is completely avoided wherever necessary</li>
+<li>The app will be easy to use if it picks the most searched/most used data as the default ones instead of asking the user every time</li>
+<li>The easiest way to show the train timings is to ask for the from station and to station</li>
+<li>Both arrival and departure time is important for users while showing the train and bus schedules.</li>
+<li>It will be less scary for Kanika if she is clear about pricing before booking a auto. She will feel better if she is kept clearly told about the pricing.</li>
+<li>It’s less scary for Kanika if the app doesn’t ask her for the payment method and only has cash as an option so that she need not worry about the money in her bank</li>
+<li>Stick bottom button are a good way to guide the user through the intended experience, one main call to action on every screen.<br>A bottom navigation bar would make it easy for users to switch from one service to another</li>
+</ul>
+<p><img src="/img/public-transport/low-fidelity3.jpg" alt="Screenshot 6"><br><img src="/img/public-transport/low-fidelity4.jpg" alt="Screenshot 7"></p>
+<p>Low fidelity designs clearly proved that some of my assumptions were wrong:</p>
+<ul>
+<li>Users don’t prefer and also are not concerned about the to station, they are only here to know the train arrival timings in a particular station. What made more sense was asking for the direction, towards which side are they taking the train</li>
+<li>The sticky footer button confuses them, they think it of a label or heading rather than a button, users have to see the 4 corners and the border with some shadow depth to understand that it is tappable.</li>
+<li>Both arrival and departure time confuses users and make the app look more complicated for them. They prefer and care only to see the arrival times.</li>
+<li>The bottom navigation bar is common pattern in iOS and these users are not used to using this kind of interface in any of the android apps before. Infact adding the bottom navigation bar only occupied more space and reduced the readability of the screens. However they are very comfortable using the back button(hardware button) on the mobile to get back to previous screens.</li>
+</ul>
+<h2 id="Low-Fidelity-Prototyping"><a href="#Low-Fidelity-Prototyping" class="headerlink" title="Low Fidelity - Prototyping"></a>Low Fidelity - Prototyping</h2><p>Once there was some clear direction about design The low fidelity prototype was designed in the native language of the user and had moved through 3 iterations in total to get to the final version. You can find the final version of the prototype here:</p>
+<iframe src="https://marvelapp.com/4835e05?emb=1" width="390" height="755" allowtransparency="true" frameborder="0"></iframe>
+
+<p><img src="/img/public-transport/low-fidelity5.jpg" alt="Screenshot 8"><br><img src="/img/public-transport/low-fidelity6.jpg" alt="Screenshot 9"></p>
+<p>Above is the image of the user interacting with the final prototype version. You can learn about some of the learnings I got from usability test below. The usability test were conducted multiple times and the designs for updates to reflect the feedback and slowly improved over time.</p>
+<h2 id="Learnings-from-usability-tests"><a href="#Learnings-from-usability-tests" class="headerlink" title="Learnings from usability tests"></a>Learnings from usability tests</h2><ul>
+<li>Don’t select the default language by default as English on the first screen, users keep clicking on the options wondering what to do next<br>As these users are not used to complex interfaces, reduces the number of choices at every screen and if possible ask only one question at a time</li>
+<li>Recent searches doesn’t make sense here, as they typically search for the same thing again and again. Therefore populate the most used data as the default values.</li>
+<li>While displaying the train/bus schedules, users first look at the first cell in the list, so highlight there instead of adding a separate section on top.</li>
+<li>Don’t show both the timings(arrives at and departs at), only the arrives at timings is enough. This gives them an estimate on when the train/bus will arrive so that they can plan their work accordingly.</li>
+<li>The time is important that the remaining mins</li>
+<li>Pictorial representation is helpful for them to understand the context and take quicker actions, especially when they have to make a choice </li>
+<li>Do not use sticky bottom buttons, they are not used to this pattern, they need to see all the 4 border with some margin around them to identify it as a clickable item.</li>
+<li>Navigation is a problem. Most users found it really hard to go back to search for other service. For example after looking a train schedule, users are stuck and unable to see bus schedules/ book autos.</li>
+</ul>
+<h2 id="High-Fidelity"><a href="#High-Fidelity" class="headerlink" title="High Fidelity"></a>High Fidelity</h2><p>You can find the link for the high fidelity prototype here:</p>
+<p><iframe src="https://marvelapp.com/32ibc3e?emb=1" width="390" height="755" allowtransparency="true" frameborder="0"></iframe><br>Gestalts principle and complexion reduction principle were used or the UI design. If you observe over the last year some of the design leaders like Facebook, Airbnb and Apple have followed a similar technique to simplify products and drive users towards the engineered direction. The main principles of this new trend is to use bigger, bolder headlines, simple thin and recognizable icons and extraction of color. The idea is to remove color and use it extremely sparingly to indicate the main call to actions.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>The app may not look fancy, but it is designed for ease of use and intuitiveness. During the final usability tests, all users were comfortable and confident with using the app and provider the exact information that they were looking for. Some words from the users themselves(all translated from Tamil to English):</p>
+<ul>
+<li>Can you install this app for me?</li>
+<li>Did you work on this app. Its very simple and easy to use.</li>
+</ul>
+</div></article></div></section><footer><div class="paginator"><a href="/2017/Better-cab-booking-experience/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2017 <a href="http://rajabishek.com">Raj Abishek</a>, unless otherwise noted.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-93252193-1",'auto');ga('send','pageview');</script></body></html>

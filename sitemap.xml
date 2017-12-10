@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://rajabishek.com/2017/Public-transport-app/</loc>
+    
+    <lastmod>2017-12-10T19:58:26.361Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://rajabishek.com/2017/Better-cab-booking-experience/</loc>
     
     <lastmod>2017-10-29T11:43:19.000Z</lastmod>
@@ -9,14 +16,7 @@
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2016/Parsing-XML-in-iOS-using-NSXMLParser/</loc>
-    
-    <lastmod>2017-10-29T09:40:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://rajabishek.com/2016/Adding-a-search-bar-in-table-view/</loc>
+    <loc>http://rajabishek.com/2017/Personas-arent-just-one-page-deliverables/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2016/Handling-Audio-in-iOS/</loc>
+    <loc>http://rajabishek.com/2016/Groovy-Essentials/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2016/Groovy-Essentials/</loc>
+    <loc>http://rajabishek.com/2016/Handling-Audio-in-iOS/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
@@ -79,6 +79,13 @@
   </url>
   
   <url>
+    <loc>http://rajabishek.com/2016/Meet-Yarn-An-improvement-over-npm/</loc>
+    
+    <lastmod>2017-10-29T09:40:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://rajabishek.com/2016/Network-requests-with-NSURLSession/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
@@ -86,7 +93,14 @@
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2016/Meet-Yarn-An-improvement-over-npm/</loc>
+    <loc>http://rajabishek.com/2016/Parsing-XML-in-iOS-using-NSXMLParser/</loc>
+    
+    <lastmod>2017-10-29T09:40:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://rajabishek.com/2016/Adding-a-search-bar-in-table-view/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
@@ -100,14 +114,14 @@
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2017/Personas-arent-just-one-page-deliverables/</loc>
+    <loc>http://rajabishek.com/2016/Programming-in-go/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://rajabishek.com/2016/Programming-in-go/</loc>
+    <loc>http://rajabishek.com/2016/SOLID-Principles/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
@@ -122,13 +136,6 @@
   
   <url>
     <loc>http://rajabishek.com/2016/Snackbar-Android-Material-Design/</loc>
-    
-    <lastmod>2017-10-29T09:40:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://rajabishek.com/2016/SOLID-Principles/</loc>
     
     <lastmod>2017-10-29T09:40:07.000Z</lastmod>
     
